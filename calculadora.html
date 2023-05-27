@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculadora.css" media="screen" />
+    <script src="calculadora.js"></script>
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/calculator');
+        </style>
+</head>
+<body>
+    <div class="fundo">
+        <p id="resultado"></p>
+          <table>
+        <button class="botao-calcAc" onclick="clean()" >AC</button>
+        <button class="botao-calco" onclick="insert('/')">/</button>
+        <button class="botao-calco" onclick="insert('*')">*</button>
+        <button class="botao-calco" onclick="insert('-')">-</button>
+        <button class="botao-calcn" onclick="insert('7')">7</button>
+        <button class="botao-calcn" onclick="insert('8')">8</button>
+        <button class="botao-calcn" onclick="insert('9')">9</button>
+        <button class="botao-calco" onclick="back('&#9003;')">&#9003;</button>
+        <button class="botao-calcn" onclick="insert('4')">4</button>
+        <button class="botao-calcn" onclick="insert('5')">5</button>
+        <button class="botao-calcn" onclick="insert('6')">6</button>
+        <button class="botao-calco" onclick="insert('%')">%</button>
+        <button class="botao-calcn" onclick="insert('1')">1</button>
+        <button class="botao-calcn" onclick="insert('2')">2</button>
+        <button class="botao-calcn" onclick="insert('3')">3</button>
+        <button class="botao-calco" onclick="insert('+')">+</button>
+        <button class="botao-calcn" onclick="insert('0')">0</button>
+        <button class="botao-calcn" onclick="insert('00')">00</button>
+        <button class="botao-calcn" onclick="insert('.')">.</button>
+        <button class="botao-calco" onclick="calcular('=')">=</button>
+          </table>
+            
+    </div>
+    
+    
+    
+    
+        
+    
+    
+</body>
+</html>
